@@ -1133,7 +1133,7 @@
             $('.duplicates-available', $target).text(duplicatesAvailable);
             return;
         }
-        let requirementsHtml = '<span class="duplicates-available">' + duplicatesAvailable + '</span>/' + duplicatesAmount + ' Rank 1 duplicates';
+        let requirementsHtml = '<span class="duplicates-available">' + duplicatesAvailable + '</span>/' + duplicatesAmount + ' 1级同名';
         $('.duplicates-wrapper', $target).html(requirementsHtml);
         $('.duplicates-wrapper', $target).show();
     }

@@ -14,253 +14,253 @@
     let gemInfo = {
         '1': {
             'gem/trickshot_gem': {
-                name: 'Trickshot Gem',
+                name: '能量核心',
                 amount: 0
             },
             'gem/everlasting_torment': {
-                name: 'Everlasting Torment',
+                name: '永恒折磨',
                 amount: 0
             },
             'gem/the_black_rose': {
-                name: 'The Black Rose',
+                name: '血蔷薇',
                 amount: 0
             },
             'gem/chained_death': {
-                name: 'Chained Death',
+                name: '连锁宝石',
                 amount: 0
             },
             'gem/berserkers_eye': {
-                name: "Berserker's Eye",
+                name: "狂战士之眼",
                 amount: 0
             },
             'gem/mocking_laughter': {
-                name: 'Mocking Laughter',
+                name: '嘲讽之石',
                 amount: 0
             },
             'gem/zod_stone': {
-                name: 'Zod Stone',
+                name: '佐德之石',
                 amount: 0
             },
             'gem/caarsens_invigoration': {
-                name: "Caarsen's Invigoration",
+                name: "卡阿森的旺盛斗志",
                 amount: 0
             },
             'gem/defiant_soul': {
-                name: 'Defiant soul',
+                name: '挑战之魂',
                 amount: 0
             },
             'gem/freedom_and_devotion': {
-                name: 'Freedom and Devotion',
+                name: '自由与虔诚',
                 amount: 0
             },
             'gem/respite_stone': {
-                name: 'Respite Stone',
+                name: '坚韧宝石',
                 amount: 0
             },
             'gem/seleds_weakening': {
-                name: "Seled's Weakening",
+                name: "瑟莱德的胜机",
                 amount: 0
             },
             'gem/pain_of_subjugation': {
-                name: 'Pain of Subjugation',
+                name: '降服之痛',
                 amount: 0
             },
             'gem/nightmare_wreath': {
-                name: 'Nightmare Wreath',
+                name: '噩梦萦绕',
                 amount: 0
             },
         },
         '2': {
             'gem/power_and_command': {
-                name: 'Power & Command',
+                name: '力量与统御',
                 amount: 0
             },
             'gem/the_hunger': {
-                name: 'The Hunger',
+                name: '饥饿者',
                 amount: 0
             },
             'gem/bloody_reach': {
-                name: 'Bloody Reach',
+                name: '猎神的凝视',
                 amount: 0
             },
             'gem/cutthroats_grin': {
-                name: 'Cutthroats Grin',
+                name: '背叛者的狞笑',
                 amount: 0
             },
             'gem/lightning_core': {
-                name: 'Lighting Core',
+                name: '闪电核心',
                 amount: 0
             },
             'gem/followers_burden': {
-                name: 'Followers Burden',
+                name: '追随者的重担',
                 amount: 0
             },
             'gem/unity_crystal': {
-                name: 'Unity Crystal',
+                name: '团结之石',
                 amount: 0
             },
             'gem/battleguard': {
-                name: 'Battleguard',
+                name: '战斗护卫',
                 amount: 0
             },
         },
         '2_5': {
             'gem/bottled_hope': {
-                name: 'Bottled Hope',
+                name: '能量之源',
                 amount: 0
             },
             'gem/phoenix_ashes': {
-                name: 'Phoenix Ashes',
+                name: '凤凰余烬',
                 amount: 0
             },
             'gem/bsj': {
-                name: 'Blood-Soaked Jade',
+                name: '斗志翡翠',
                 amount: 0
             },
             'gem/chip_of_stoned_flesh': {
-                name: 'Chip of Stoned Flesh',
+                name: '石像鬼魂石',
                 amount: 0
             },
             'gem/echoing_shade': {
-                name: 'Echoing Shade',
+                name: '阴影回响',
                 amount: 0
             },
             'gem/howlers_call': {
-                name: "Howler\s Call",
+                name: "狼嚎之语",
                 amount: 0
             },
             'gem/zwensons_haunting': {
-                name: "Zwenson's Haunting",
+                name: "泽文森的独居",
                 amount: 0
             },
             'gem/seeping_bile': {
-                name: "Seeping Bile",
+                name: "腐蚀之源",
                 amount: 0
             },
             'gem/blessing_of_the_worthy': {
-                name: "Blessing of the Worthy",
+                name: "神之恩赐",
                 amount: 0
             },
         },
         '3_5': {
             'gem/bottled_hope': {
-                name: 'Bottled Hope',
+                name: '能量之源',
                 amount: 0
             },
             'gem/phoenix_ashes': {
-                name: 'Phoenix Ashes',
+                name: '凤凰余烬',
                 amount: 0
             },
             'gem/bsj': {
-                name: 'Blood-Soaked Jade',
+                name: '斗志翡翠',
                 amount: 0
             },
             'gem/chip_of_stoned_flesh': {
-                name: 'Chip of Stoned Flesh',
+                name: '石像鬼魂石',
                 amount: 0
             },
             'gem/echoing_shade': {
-                name: 'Echoing Shade',
+                name: '阴影回响',
                 amount: 0
             },
             'gem/howlers_call': {
-                name: "Howler\s Call",
+                name: "狼嚎之语",
                 amount: 0
             },
             'gem/zwensons_haunting': {
-                name: "Zwenson's Haunting",
+                name: "泽文森的独居",
                 amount: 0
             },
             'gem/seeping_bile': {
-                name: "Seeping Bile",
+                name: "腐蚀之源",
                 amount: 0
             },
             'gem/blessing_of_the_worthy': {
-                name: "Blessing of the Worthy",
+                name: "神之恩赐",
                 amount: 0
             },
         },
         '4_5': {
             'gem/bottled_hope': {
-                name: 'Bottled Hope',
+                name: '能量之源',
                 amount: 0
             },
             'gem/phoenix_ashes': {
-                name: 'Phoenix Ashes',
+                name: '凤凰余烬',
                 amount: 0
             },
             'gem/bsj': {
-                name: 'Blood-Soaked Jade',
+                name: '斗志翡翠',
                 amount: 0
             },
             'gem/chip_of_stoned_flesh': {
-                name: 'Chip of Stoned Flesh',
+                name: '石像鬼魂石',
                 amount: 0
             },
             'gem/echoing_shade': {
-                name: 'Echoing Shade',
+                name: '阴影回响',
                 amount: 0
             },
             'gem/howlers_call': {
-                name: "Howler\s Call",
+                name: "狼嚎之语",
                 amount: 0
             },
             'gem/zwensons_haunting': {
-                name: "Zwenson's Haunting",
+                name: "泽文森的独居",
                 amount: 0
             },
             'gem/seeping_bile': {
-                name: "Seeping Bile",
+                name: "腐蚀之源",
                 amount: 0
             },
             'gem/blessing_of_the_worthy': {
-                name: "Blessing of the Worthy",
+                name: "神之恩赐",
                 amount: 0
             },
         },
         '5_5': {
             'gem/bottled_hope': {
-                name: 'Bottled Hope',
+                name: '能量之源',
                 amount: 0
             },
             'gem/phoenix_ashes': {
-                name: 'Phoenix Ashes',
+                name: '凤凰余烬',
                 amount: 0
             },
             'gem/bsj': {
-                name: 'Blood-Soaked Jade',
+                name: '斗志翡翠',
                 amount: 0
             },
             'gem/chip_of_stoned_flesh': {
-                name: 'Chip of Stoned Flesh',
+                name: '石像鬼魂石',
                 amount: 0
             },
             'gem/echoing_shade': {
-                name: 'Echoing Shade',
+                name: '阴影回响',
                 amount: 0
             },
             'gem/howlers_call': {
-                name: "Howler\s Call",
+                name: "狼嚎之语",
                 amount: 0
             },
             'gem/zwensons_haunting': {
-                name: "Zwenson's Haunting",
+                name: "泽文森的独居",
                 amount: 0
             },
             'gem/seeping_bile': {
-                name: "Seeping Bile",
+                name: "腐蚀之源",
                 amount: 0
             },
             'gem/blessing_of_the_worthy': {
-                name: "Blessing of the Worthy",
+                name: "神之恩赐",
                 amount: 0
             },
-        },
+        }
     };
 
     let totalGemCount = 0;
 
-    let gemCount = {'1': 0.0, '2': 0.0, '2_5': 0.0, '3_5': 0.0, '4_5': 0.0, '5_5': 0.0,}
+    let gemCount = { '1': 0.0, '2': 0.0, '2_5': 0.0, '3_5': 0.0, '4_5': 0.0, '5_5': 0.0, }
 
     const GEM_TYPES = [1, 2, 5];
 
@@ -269,6 +269,13 @@
     const FIVE_STAR_GEM_TYPES = [2, 3, 4, 5]
 
     const FIVE_STAR_ODDS = [0.75, 0.2, 0.04, 0.01];
+    // const GEM_TYPES = [1, 2, 5];
+
+    // const GEM_ODDS = [0, 0, 1];
+
+    // const FIVE_STAR_GEM_TYPES = [2, 3, 4, 5]
+
+    // const FIVE_STAR_ODDS = [0, 0, 0, 1];
 
     const ONE_STAR_GEMS = [
         'gem/trickshot_gem',
@@ -342,7 +349,7 @@
     });
 
     async function spin() {
-        moneySpent += 25;
+        moneySpent += 160;
 
         if (moneySpent % 125 === 0) {
             pitySystemActive = true;
@@ -405,7 +412,7 @@
                                 $box.style.filter = "blur(1px)";
                             });
                         },
-                        {once: true}
+                        { once: true }
                     );
 
                     $boxesClone.addEventListener(
@@ -418,7 +425,7 @@
                                 }
                             });
                         },
-                        {once: true}
+                        { once: true }
                     );
                 }
 
@@ -432,9 +439,8 @@
                 }
 
                 $boxesClone.style.transitionDuration = '1s';
-                $boxesClone.style.transform = `translateY(-${
-                    $door.clientHeight * (pool.length - 1)
-                }px)`;
+                $boxesClone.style.transform = `translateY(-${$door.clientHeight * (pool.length - 1)
+                    }px)`;
 
                 $door.replaceChild($boxesClone, $boxes);
 
@@ -1026,33 +1032,33 @@
 
 
         if (gemOfStarAmountExist('1')) {
-            optionsHtml += '<option value="1">1 Star</option>';
+            optionsHtml += '<option value="1">1星</option>';
         }
 
         if (gemOfStarAmountExist('2')) {
-            optionsHtml += '<option value="2">2 Star</option>';
+            optionsHtml += '<option value="2">2星</option>';
         }
 
         if (gemOfStarAmountExist('2_5')) {
-            optionsHtml += '<option value="2_5">2/5 Star</option>';
+            optionsHtml += '<option value="2_5">2/5星</option>';
         }
 
         if (gemOfStarAmountExist('3_5')) {
-            optionsHtml += '<option value="3_5">3/5 Star</option>';
+            optionsHtml += '<option value="3_5">3/5星</option>';
         }
 
         if (gemOfStarAmountExist('4_5')) {
-            optionsHtml += '<option value="4_5">4/5 Star</option>';
+            optionsHtml += '<option value="4_5">4/5星</option>';
         }
 
         if (gemOfStarAmountExist('5_5')) {
-            optionsHtml += '<option value="5_5">5/5 Star</option>';
+            optionsHtml += '<option value="5_5">5/5星</option>';
         }
 
         if (optionsHtml) {
-            optionsHtml = '<option selected>Select Star Rating</option>' + optionsHtml;
+            optionsHtml = '<option selected>选择星级</option>' + optionsHtml;
         } else {
-            optionsHtml = '<option selected>Not enough gems</option>';
+            optionsHtml = '<option selected>没有任何宝石</option>';
         }
 
         return optionsHtml;
@@ -1113,7 +1119,7 @@
             }
         }
 
-        optionsHtml = '<option selected>Select a Legendary Gem</option>' + optionsHtml;
+        optionsHtml = '<option selected>选择一个传奇宝石</option>' + optionsHtml;
 
         return optionsHtml;
     }
@@ -1166,7 +1172,7 @@
                     }
                 }
                 if (gemInfo[star][gemName].amount > 0) {
-                    inventoryHtml += '<div class="inventory-content"><button data-gem-name="' + gemName + '" data-gem-stars="' + star + '" type="button" class="btn btn-xs consume-gem-btn" style="color: red; padding: 0; font-size: 14px !important;">Consume</button><img src="assets/gem_upgrade/'
+                    inventoryHtml += '<div class="inventory-content"><button data-gem-name="' + gemName + '" data-gem-stars="' + star + '" type="button" class="btn btn-xs consume-gem-btn" style="color: red; padding: 0; font-size: 14px !important;">分解</button><img src="assets/gem_upgrade/'
                         + gemName + '.webp" style="height: 40px; width: 40px; border-radius: 25px; display: inline" alt=""/><span>  '
                         + gemInfo[star][gemName].name + ' ' + starsHtml + '</span>'
                         + '<span class="inventory-gem-count"> x' + gemInfo[star][gemName].amount

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>$25 Rift Simulator</title>
+    <title>十连抽模拟器</title>
     <meta name="description" content="Gamble And Upgrade Diablo Immortal Legendary Gems for free">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
@@ -27,16 +27,16 @@
     <div class="row" style="width: 80%">
         <div class="col empty-col"></div>
         <div class="col col" style="text-align: center">
-            <h1 class="app-headline ">$25 Rift Simulator</h1>
+            <h1 class="app-headline ">160元传奇宝石十连抽</h1>
             <p class="app-subheadline">
-                5 Star gems: <span id="five-star-count-main">0</span>
+                已抽到的5/5星宝石: <span id="five-star-count-main">0</span>
             </p>
             <p class="app-subheadline">
-                USD SPENT: $<span id="money-spent">0</span>
+                你已经消费了（元）：<span id="money-spent">0</span>
             </p>
             <p class="app-subheadline">
-                YOUR NAME
-                <input style="margin-left: 20px;">
+                您的名字：
+                <input style="margin-left: 20px;border-radius: 10px;text-align: center;width: 250px;">
             </p>
         </div>
         <div id="stats-wrapper" class="col stats">
@@ -110,7 +110,7 @@
             <div class="row" style="margin-top: 10px">
                 <div class="col empty-centered"></div>
                 <div class="col">
-                    All gems:
+                    所有宝石:
                 </div>
                 <div class="col numbers"><span id="total-gem-count">0</span></div>
             </div>
@@ -208,12 +208,12 @@
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane" id="inventory">
                             <div class="modal-header border-0" style="padding-bottom: 0; padding-top: 0">
-                                <h5>Resonance: <span class="resonance">0</span></h5><br>
-                                <h5>Gem Power: <span class="gem-power">0</span></h5>
+                                <h5>共鸣度: <span class="resonance">0</span></h5><br>
+                                <h5>宝石能量: <span class="gem-power">0</span></h5>
                             </div>
                             <div class="form-check form-switch" style="margin-left: 20px">
                                 <input class="form-check-input" type="checkbox" checked id="consume-all-gems">
-                                <label class="form-check-label" for="consume-all-gems" style="font-size: 14px">Consume ALL gems</label>
+                                <label class="form-check-label" for="consume-all-gems" style="font-size: 14px">分解所有宝石</label>
                             </div>
                             <div class="modal-body modal-upgrade-body overflow-auto" style="padding-top: 0; max-height: 400px;">
                                 <div class="col" id="inventory-body" style="padding-top: 20px; text-align: left; max-height: 500px;">
@@ -222,8 +222,8 @@
                         </div>
                         <div role="tabpanel" class="tab-pane" id="gem-upgrade">
                             <div class="modal-header border-0" style="padding-bottom: 0; padding-top: 0">
-                                <h5>Resonance: <span class="resonance">0</span></h5><br>
-                                <h5>Gem Power: <span class="gem-power">0</span></h5>
+                                <h5>共鸣度: <span class="resonance">0</span></h5><br>
+                                <h5>宝石能量: <span class="gem-power">0</span></h5>
                             </div>
                             <div class="modal-body modal-upgrade-body" style="padding-top: 0">
                                 <div class="row nav nav-tabs border-0" role="tablist">
@@ -282,13 +282,13 @@
                                             <select class="form-select form-select-lg mb-3 text-center star-rating-select"
                                                     aria-label=".form-select-lg example"
                                                     style="margin-top: 15px; text-align-last:center;">
-                                                <option selected>Select Star Rating</option>
+                                                <option selected>选择星级</option>
                                             </select>
                                             <select disabled="disabled"
                                                     class="form-select form-select-lg mb-3 text-center gem-select"
                                                     aria-label=".form-select-lg example"
                                                     style="margin-top: 15px; text-align-last:center;">
-                                                <option selected>Select a Legendary Gem</option>
+                                                <option selected>选择一个传奇宝石</option>
                                             </select>
                                             <div class="text-center gem-name" style="display: none; padding-top: 15px; padding-bottom: 10px"></div>
                                             <div class="gem-upgrade-wrapper" style="display: none;">
@@ -304,13 +304,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="text-center" style="font-size: 20px;">
-                                                    <h5>Rank <span class="gem-rank">1</span> <i class="fa-solid fa-arrow-right gem-upgrade-arrow" style="color: green"> </i> <span class="gem-rank-next">2</span></h5>
+                                                    <h5>等级 <span class="gem-rank">1</span> <i class="fa-solid fa-arrow-right gem-upgrade-arrow" style="color: green"> </i> <span class="gem-rank-next">2</span></h5>
                                                 </div>
                                                 <div style="font-size: 20px; margin-bottom: 10px"
                                                      class="text-center gem-upgrade-requirements">
-                                                    Requirements: <br>
+                                                     需要: <br>
                                                     <span class="gem-power">0</span>/<span
-                                                        class="gem-power-for-upgrade">1</span> Gem Power<br>
+                                                        class="gem-power-for-upgrade">1</span>宝石能量<br>
                                                     <div class="duplicates-wrapper"></div>
                                                 </div>
                                                 <div class="row">
@@ -330,13 +330,13 @@
                                             <select class="form-select form-select-lg mb-3 text-center star-rating-select"
                                                     aria-label=".form-select-lg example"
                                                     style="margin-top: 15px; text-align-last:center;">
-                                                <option selected>Select Star Rating</option>
+                                                <option selected>选择星级</option>
                                             </select>
                                             <select disabled="disabled"
                                                     class="form-select form-select-lg mb-3 text-center gem-select"
                                                     aria-label=".form-select-lg example"
                                                     style="margin-top: 15px; text-align-last:center;">
-                                                <option selected>Select a Legendary Gem</option>
+                                                <option selected>选择一个传奇宝石</option>
                                             </select>
                                             <div class="text-center gem-name" style="display: none; padding-top: 15px; padding-bottom: 10px"></div>
                                             <div class="gem-upgrade-wrapper" style="display: none;">
@@ -352,13 +352,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="text-center" style="font-size: 20px;">
-                                                    <h5>Rank <span class="gem-rank">1</span> <i class="fa-solid fa-arrow-right gem-upgrade-arrow" style="color: green"> </i> <span class="gem-rank-next">2</span></h5>
+                                                    <h5>等级 <span class="gem-rank">1</span> <i class="fa-solid fa-arrow-right gem-upgrade-arrow" style="color: green"> </i> <span class="gem-rank-next">2</span></h5>
                                                 </div>
                                                 <div style="font-size: 20px; margin-bottom: 10px"
                                                      class="text-center gem-upgrade-requirements">
-                                                    Requirements: <br>
+                                                   需要: <br>
                                                     <span class="gem-power">0</span>/<span
-                                                        class="gem-power-for-upgrade">1</span> Gem Power<br>
+                                                        class="gem-power-for-upgrade">1</span>宝石能量<br>
                                                     <div class="duplicates-wrapper"></div>
                                                 </div>
                                                 <div class="row">
@@ -378,13 +378,13 @@
                                             <select class="form-select form-select-lg mb-3 text-center star-rating-select"
                                                     aria-label=".form-select-lg example"
                                                     style="margin-top: 15px; text-align-last:center;">
-                                                <option selected>Select Star Rating</option>
+                                                <option selected>选择星级</option>
                                             </select>
                                             <select disabled="disabled"
                                                     class="form-select form-select-lg mb-3 text-center gem-select"
                                                     aria-label=".form-select-lg example"
                                                     style="margin-top: 15px; text-align-last:center;">
-                                                <option selected>Select a Legendary Gem</option>
+                                                <option selected>选择一个传奇宝石</option>
                                             </select>
                                             <div class="text-center gem-name" style="display: none; padding-top: 15px; padding-bottom: 10px"></div>
                                             <div class="gem-upgrade-wrapper" style="display: none;">
@@ -400,13 +400,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="text-center" style="font-size: 20px;">
-                                                    <h5>Rank <span class="gem-rank">1</span> <i class="fa-solid fa-arrow-right gem-upgrade-arrow" style="color: green"> </i> <span class="gem-rank-next">2</span></h5>
+                                                    <h5>等级 <span class="gem-rank">1</span> <i class="fa-solid fa-arrow-right gem-upgrade-arrow" style="color: green"> </i> <span class="gem-rank-next">2</span></h5>
                                                 </div>
                                                 <div style="font-size: 20px; margin-bottom: 10px"
                                                      class="text-center gem-upgrade-requirements">
-                                                    Requirements: <br>
+                                                     需要: <br>
                                                     <span class="gem-power">0</span>/<span
-                                                        class="gem-power-for-upgrade">1</span> Gem Power<br>
+                                                        class="gem-power-for-upgrade">1</span> 宝石能量<br>
                                                     <div class="duplicates-wrapper"></div>
                                                 </div>
                                                 <div class="row">
@@ -426,13 +426,13 @@
                                             <select class="form-select form-select-lg mb-3 text-center star-rating-select"
                                                     aria-label=".form-select-lg example"
                                                     style="margin-top: 15px; text-align-last:center;">
-                                                <option selected>Select Star Rating</option>
+                                                <option selected>选择星级</option>
                                             </select>
                                             <select disabled="disabled"
                                                     class="form-select form-select-lg mb-3 text-center gem-select"
                                                     aria-label=".form-select-lg example"
                                                     style="margin-top: 15px; text-align-last:center;">
-                                                <option selected>Select a Legendary Gem</option>
+                                                <option selected>选择一个传奇宝石</option>
                                             </select>
                                             <div class="text-center gem-name" style="display: none; padding-top: 15px; padding-bottom: 10px"></div>
                                             <div class="gem-upgrade-wrapper" style="display: none;">
@@ -448,13 +448,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="text-center" style="font-size: 20px;">
-                                                    <h5>Rank <span class="gem-rank">1</span> <i class="fa-solid fa-arrow-right gem-upgrade-arrow" style="color: green"> </i> <span class="gem-rank-next">2</span></h5>
+                                                    <h5>等级 <span class="gem-rank">1</span> <i class="fa-solid fa-arrow-right gem-upgrade-arrow" style="color: green"> </i> <span class="gem-rank-next">2</span></h5>
                                                 </div>
                                                 <div style="font-size: 20px; margin-bottom: 10px"
                                                      class="text-center gem-upgrade-requirements">
-                                                    Requirements: <br>
+                                                     需要: <br>
                                                     <span class="gem-power">0</span>/<span
-                                                        class="gem-power-for-upgrade">1</span> Gem Power<br>
+                                                        class="gem-power-for-upgrade">1</span> 宝石能量<br>
                                                     <div class="duplicates-wrapper"></div>
                                                 </div>
                                                 <div class="row">
@@ -474,13 +474,13 @@
                                             <select class="form-select form-select-lg mb-3 text-center star-rating-select"
                                                     aria-label=".form-select-lg example"
                                                     style="margin-top: 15px; text-align-last:center;">
-                                                <option selected>Select Star Rating</option>
+                                                <option selected>选择星级</option>
                                             </select>
                                             <select disabled="disabled"
                                                     class="form-select form-select-lg mb-3 text-center gem-select"
                                                     aria-label=".form-select-lg example"
                                                     style="margin-top: 15px; text-align-last:center;">
-                                                <option selected>Select a Legendary Gem</option>
+                                                <option selected>选择一个传奇宝石</option>
                                             </select>
                                             <div class="text-center gem-name" style="display: none; padding-top: 15px; padding-bottom: 10px"></div>
                                             <div class="gem-upgrade-wrapper" style="display: none;">
@@ -496,13 +496,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="text-center" style="font-size: 20px;">
-                                                    <h5>Rank <span class="gem-rank">1</span> <i class="fa-solid fa-arrow-right gem-upgrade-arrow" style="color: green"> </i> <span class="gem-rank-next">2</span></h5>
+                                                    <h5>等级 <span class="gem-rank">1</span> <i class="fa-solid fa-arrow-right gem-upgrade-arrow" style="color: green"> </i> <span class="gem-rank-next">2</span></h5>
                                                 </div>
                                                 <div style="font-size: 20px; margin-bottom: 10px"
                                                      class="text-center gem-upgrade-requirements">
-                                                    Requirements: <br>
+                                                    需要: <br>
                                                     <span class="gem-power">0</span>/<span
-                                                        class="gem-power-for-upgrade">1</span> Gem Power<br>
+                                                        class="gem-power-for-upgrade">1</span> 宝石能量<br>
                                                     <div class="duplicates-wrapper"></div>
                                                 </div>
                                                 <div class="row">
@@ -522,13 +522,13 @@
                                             <select class="form-select form-select-lg mb-3 text-center star-rating-select"
                                                     aria-label=".form-select-lg example"
                                                     style="margin-top: 15px; text-align-last:center;">
-                                                <option selected>Select Star Rating</option>
+                                                <option selected>选择星级</option>
                                             </select>
                                             <select disabled="disabled"
                                                     class="form-select form-select-lg mb-3 text-center gem-select"
                                                     aria-label=".form-select-lg example"
                                                     style="margin-top: 15px; text-align-last:center;">
-                                                <option selected>Select a Legendary Gem</option>
+                                                <option selected>选择一个传奇宝石</option>
                                             </select>
                                             <div class="text-center gem-name" style="display: none; padding-top: 15px; padding-bottom: 10px"></div>
                                             <div class="gem-upgrade-wrapper" style="display: none;">
@@ -544,13 +544,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="text-center" style="font-size: 20px;">
-                                                    <h5>Rank <span class="gem-rank">1</span> <i class="fa-solid fa-arrow-right gem-upgrade-arrow" style="color: green"> </i> <span class="gem-rank-next">2</span></h5>
+                                                    <h5>等级 <span class="gem-rank">1</span> <i class="fa-solid fa-arrow-right gem-upgrade-arrow" style="color: green"> </i> <span class="gem-rank-next">2</span></h5>
                                                 </div>
                                                 <div style="font-size: 20px; margin-bottom: 10px"
                                                      class="text-center gem-upgrade-requirements">
-                                                    Requirements: <br>
+                                                    需要: <br>
                                                     <span class="gem-power">0</span>/<span
-                                                        class="gem-power-for-upgrade">1</span> Gem Power<br>
+                                                        class="gem-power-for-upgrade">1</span> 宝石能量<br>
                                                     <div class="duplicates-wrapper"></div>
                                                 </div>
                                                 <div class="row">
@@ -570,8 +570,8 @@
                         </div>
                         <div role="tabpanel" class="tab-pane" id="statistics">
                             <div class="modal-header border-0" style="padding-bottom: 0; padding-top: 0">
-                                <h5>Resonance: <span class="resonance">0</span></h5><br>
-                                <h5>Gem Power: <span class="gem-power">0</span></h5>
+                                <h5>共鸣度: <span class="resonance">0</span></h5><br>
+                                <h5>宝石能量: <span class="gem-power">0</span></h5>
                             </div>
                             <div class="modal-body modal-upgrade-body overflow-auto" style="padding-top: 0">
                                 <div id="stats-modal-content" class="stats-modal-content" style="padding-top: 0 !important; padding-bottom: 0 !important; max-height: 280px;"></div>
@@ -579,7 +579,7 @@
                         </div>
                     </div>
                     <div class="modal-footer border-0">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消</button>
                     </div>
                 </div>
             </div>
@@ -605,23 +605,24 @@
 <div class="modal fade" id="news-modal" tabindex="-1" aria-labelledby="newsModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="gem-upgrade-modal-content" style="padding: 10px; border-radius: 25px;">
-            <h4 style="text-align: center">Welcome to the<br> $25 Rift Simulator</h4>
-            <p>In the latest Update I've added <b>Inventory</b> & <b>Legendary Gem Upgrade System</b></p>
-            <p>Here's a little instruction on how to use the new features:</p>
+            <h4 style="text-align: center">欢迎使用<br>十连抽模拟器</h4>
+            <h3>侵权立删！</h3>
+            <h3>In case of infringement, I will delete it immediately！</h3>
             <ol>
-                <li>Click the button in top right of the page and in the modal window select "Upgrade Gems".</li>
-                <li>You are now presented with 6 available gem slots, click on one of them and select a Legendary Gem, <b>you will not be able to replace gems in these slots without refreshing the page</b>.</li>
-                <li>You will see that you need Gem Power to upgrade the gems, to acquire Gem Power, navigate to "Inventory" by clicking the "Inventory" button.</li>
-                <li>You will now see "Consume" buttons near each Legendary Gem, pressing on this button will "consume" the gem, granting you Gem Power and <b>destroying</b> the gem in the process.</li>
+                <h4>本页面可以模拟升级传奇宝石，说明如下：</h4>
+                <li>点击页面右上角的按钮，在模式窗口中选择“升级宝石”。</li>
+                <li>您现在有6个可用的宝石插槽，单击其中一个并选择传奇宝石，<b>如果不刷新页面，您将无法替换这些插槽中的宝石</b>.</li>
+                <li>您将看到您需要宝石电源来升级宝石，要获得宝石电源，请单击“库存”按钮导航到“库存”。</li>
+                <li>你现在会在每个传奇宝石附近看到“消耗”按钮，按下此按钮将“消耗”宝石，将宝石分解为能量</li>
             </ol>
-            <h5 style="text-align: center">Have fun! ❤</h5>
+            <h5 style="text-align: center">仅供娱乐，祝开心! ❤</h5>
             <div class="modal-footer border-0">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
             </div>
         </div>
     </div>
 </div>
 
-<script src="dist/index.min.js"></script>
+<script src="src/js/index.js"></script>
 </body>
 </html>
